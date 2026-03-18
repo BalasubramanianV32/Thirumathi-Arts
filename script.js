@@ -67,14 +67,14 @@ filterBtns.forEach(btn => {
 // ===== WHATSAPP ORDER =====
 function orderOnWhatsApp(productName) {
   const phone = '916374183596'; // Replace with actual number
-  const message = encodeURIComponent(`Hello! 🌸 I want to order this bangle:\n\n✨ *${productName}*\n\nKindly let me know about availability and delivery. Thank you!`);
+  const message = encodeURIComponent(`Hello! I want to order this bangle:\n\n *${productName}*\n\nKindly let me know about availability and delivery. Thank you!`);
   window.open(`https://wa.me/${phone}?text=${message}`, '_blank');
 }
 
 function bookMehendi(serviceType) {
   const phone = '916374183596'; // Replace with actual number
   const msg = serviceType
-    ? encodeURIComponent(`Hello!  I'd like to book a *${serviceType}* Mehendi appointment.\n\nPlease share your availability and pricing. Thank you!`)
+    ? encodeURIComponent(`Hello!  I'd like to book a Mehendi appointment.\n\nPlease share your availability and pricing. Thank you!`)
     : encodeURIComponent(`Hello! I'd like to book a Mehendi appointment.\n\nPlease share your availability and pricing. Thank you!`);
   window.open(`https://wa.me/${phone}?text=${msg}`, '_blank');
 }
