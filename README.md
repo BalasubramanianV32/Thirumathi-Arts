@@ -1,4 +1,4 @@
-# ✦ Shringar — Bangles & Mehendi Website
+# ✦ Thirumathi — Bangles & Mehendi Website
 
 A beautiful, mobile-friendly website for a traditional Indian bangles and mehendi home business.
 
